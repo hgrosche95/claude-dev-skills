@@ -60,8 +60,32 @@ spätere Schritt einzeln erklärt wird:
    kurzer Begründung, warum diese Reihenfolge sinnvoll ist.
 2. Pro Schritt: Ansatz + Begründung erklären, dann umsetzen bzw. den Nutzer
    anleiten, es selbst umzusetzen.
-3. Nach jedem Schritt kurz validieren (funktioniert es? nächster Schritt
+3. Sobald ein Schritt Code verändert hat: jede geänderte/neue Datei einzeln
+   erklären (siehe "Datei-Änderungen erklären" unten) — auch wenn der Nutzer
+   den Code selbst getippt hat.
+4. Nach jedem Schritt kurz validieren (funktioniert es? nächster Schritt
    noch sinnvoll?), bevor es weitergeht.
+
+## Datei-Änderungen erklären
+
+Diese Erklärung ist der Kern des Lerneffekts von `/code-with-me` — sie
+passiert nach jedem Schritt, der Dateien verändert, nicht erst am Ende.
+
+- Liste jede geänderte oder neue Datei einzeln auf — bei mehreren Dateien in
+  einem Schritt alle, nicht nur die "wichtigste".
+- Pro Datei: 1-3 Sätze was sich geändert hat und warum, direkt gefolgt von
+  einem kurzen Code-Ausschnitt, der die Änderung zeigt. Format:
+  ```
+  **<Dateipfad>**
+  <kurze Erklärung was/warum>
+  ```<sprache>
+  <relevanter Ausschnitt>
+  ```
+  ```
+- Ausschnitt heißt Ausschnitt: nur die geänderten/neuen Zeilen plus so viel
+  Kontext wie zum Verständnis nötig (z.B. die umschließende Funktion) —
+  keine ganzen Dateien reinkopieren, sonst geht die Übersicht wieder
+  verloren, die dieser Modus eigentlich schaffen soll.
 
 ## Wann nachfragen statt weitermachen
 
