@@ -42,6 +42,12 @@ behandeln, nicht als einzelne Liste.
 
 - Nach Bestätigung: Anforderung eigenständig umsetzen, ohne bei jedem
   Schritt nachzufragen.
+- Bevor das Ergebnis als fertig gemeldet wird: tatsächlich verifizieren
+  statt nur zu vermuten — vorhandene Tests/Build/Linter ausführen, oder wenn
+  keine vorhanden sind, das Feature direkt ausführen. Schlägt das fehl,
+  selbst beheben statt es nur in der Abschluss-Zusammenfassung zu erwähnen
+  (das zählt nicht als Planabweichung, die eine Rückfrage braucht — außer
+  der Fix selbst erfordert wieder eine Entscheidung mit echten Trade-offs).
 - Unterbrich nur, wenn:
   - eine Entscheidung mit echten Trade-offs ansteht, die Phase 1 nicht
     abgedeckt hat,

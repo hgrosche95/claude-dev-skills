@@ -63,8 +63,10 @@ spätere Schritt einzeln erklärt wird:
 3. Sobald ein Schritt Code verändert hat: jede geänderte/neue Datei einzeln
    erklären (siehe "Datei-Änderungen erklären" unten) — auch wenn der Nutzer
    den Code selbst getippt hat.
-4. Nach jedem Schritt kurz validieren (funktioniert es? nächster Schritt
-   noch sinnvoll?), bevor es weitergeht.
+4. Nach jedem Schritt tatsächlich verifizieren statt nur zu vermuten:
+   vorhandene Tests/Build/Linter ausführen, oder wenn keine vorhanden sind,
+   das Feature/den Codepfad direkt ausführen und das Ergebnis zeigen. Erst
+   wenn das bestätigt ist, zum nächsten Schritt übergehen.
 
 ## Datei-Änderungen erklären
 
