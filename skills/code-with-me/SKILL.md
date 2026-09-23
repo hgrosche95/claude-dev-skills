@@ -5,7 +5,7 @@ description: >
   Vor jedem Implementierungsschritt wird die gewählte Vorgehensweise erklärt
   und begründet (welches Tool/Framework, welcher Ansatz, warum diese
   Reihenfolge) — der Nutzer soll dabei etwas lernen, nicht nur ein fertiges
-  Ergebnis bekommen. Immer verwenden, wenn der Nutzer /code-with-me aufruft.
+  Ergebnis bekommen.
 disable-model-invocation: true
 ---
 ## Zweck
@@ -77,13 +77,13 @@ passiert nach jedem Schritt, der Dateien verändert, nicht erst am Ende.
   einem Schritt alle, nicht nur die "wichtigste".
 - Pro Datei: 1-3 Sätze was sich geändert hat und warum, direkt gefolgt von
   einem kurzen Code-Ausschnitt, der die Änderung zeigt. Format:
-  ```
+  ````
   **<Dateipfad>**
   <kurze Erklärung was/warum>
   ```<sprache>
   <relevanter Ausschnitt>
   ```
-  ```
+  ````
 - Ausschnitt heißt Ausschnitt: nur die geänderten/neuen Zeilen plus so viel
   Kontext wie zum Verständnis nötig (z.B. die umschließende Funktion) —
   keine ganzen Dateien reinkopieren, sonst geht die Übersicht wieder

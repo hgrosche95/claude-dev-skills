@@ -5,7 +5,7 @@ description: >
   geklärt wurden. Startet mit einer Interview-Phase (Fragen zu unklaren
   Entscheidungen, in Runden, mit Empfehlung), erst danach folgt eigenständige
   Umsetzung bis zur Fertigstellung oder bis eine Abweichung vom Plan eine
-  Rückfrage nötig macht. Immer verwenden, wenn der Nutzer /code-for-me aufruft.
+  Rückfrage nötig macht.
 disable-model-invocation: true
 ---
 
