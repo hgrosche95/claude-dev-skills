@@ -31,3 +31,7 @@ Danach in einer neuen Claude-Code-Session `/code-with-me` bzw. `/code-for-me` au
 ## Format
 
 Jeder Skill ist eine `SKILL.md` mit YAML-Frontmatter (`name`, `description`, `disable-model-invocation: true` — verhindert, dass Claude den Skill selbständig triggert, nur expliziter Aufruf aktiviert ihn) gefolgt von Markdown-Instruktionen, die das Verhalten für die restliche Session steuern.
+
+## Lizenz
+
+[MIT](LICENSE): frei nutzbar und anpassbar, solange der Copyright-Hinweis erhalten bleibt.
